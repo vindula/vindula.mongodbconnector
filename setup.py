@@ -28,6 +28,7 @@ setup(name='vindula.mongodbconnector',
           'setuptools',
           'plone.app.dexterity',
           # -*- Extra requirements: -*-
+          'pymongo'
       ],
       entry_points="""
       # -*- Entry points: -*-

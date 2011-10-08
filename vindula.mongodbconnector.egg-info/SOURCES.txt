@@ -12,4 +12,7 @@ vindula.mongodbconnector.egg-info/paster_plugins.txt
 vindula.mongodbconnector.egg-info/requires.txt
 vindula.mongodbconnector.egg-info/top_level.txt
 vindula/mongodbconnector/__init__.py
+vindula/mongodbconnector/connector.py
+vindula/mongodbconnector/interfaces.py
 vindula/mongodbconnector/tests.py
+vindula/mongodbconnector/browser/__init__.py
