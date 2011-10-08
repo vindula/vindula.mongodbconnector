@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<registry>
+<!-- This file registers new types with portal_types. The types are
+     then configured with the corresponding files in types/*.xml. Note
+     that spaces are allowed in type names, but the corresponding XML file
+     uses an underscore instead. The "Factory-based Type Information with
+     dynamic views" refers to an FTI from Products.CMFDynamicViewFTI,
+     which supports Plone's "display" menu.
+  -->
+<records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" />
+<records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" prefix="vindula.mongodbconnector.interfaces.IMongoDBConnector">
+    <value key="host">127.0.0.1</value>
+    <value key="port">27017</value>
+    <value key="db_name">database</value>
+</records>
+</registry>
