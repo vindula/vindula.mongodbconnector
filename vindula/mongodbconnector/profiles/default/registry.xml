@@ -7,10 +7,13 @@
      dynamic views" refers to an FTI from Products.CMFDynamicViewFTI,
      which supports Plone's "display" menu.
   -->
-<records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" />
-<records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" prefix="vindula.mongodbconnector.interfaces.IMongoDBConnector">
-    <value key="host">127.0.0.1</value>
-    <value key="port">27017</value>
-    <value key="db_name">database</value>
-</records>
+  
+    <records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" />
+    <records interface="vindula.mongodbconnector.interfaces.IMongoDBConnector" 
+             prefix="vindula.mongodbconnector.interfaces.IMongoDBConnector">
+        <value key="host">127.0.0.1</value>
+        <value key="port">27017</value>
+        <value key="db_name">database</value>
+    </records>
+    
 </registry>

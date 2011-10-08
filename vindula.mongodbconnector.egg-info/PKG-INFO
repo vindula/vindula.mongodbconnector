@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
 Name: vindula.mongodbconnector
 Version: 1.0
-Summary: Example Dexterity Product
+Summary: Vindula: MongoDB Connector
 Home-page: http://svn.plone.org/svn/collective/
 Author: UNKNOWN
 Author-email: UNKNOWN
@@ -9,10 +9,7 @@ License: GPL
 Description: Introduction
         ============
         
-        
-        
-        This product may contain traces of nuts.
-        
+        Vindula's MongoDB connector.
         Changelog
         =========
         

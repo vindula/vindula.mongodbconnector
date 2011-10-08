@@ -19,9 +19,9 @@
        in Plone -->
   <genericsetup:registerProfile
       name="default"
-      title="Example Dexterity Product"
+      title="Vindula: MongoDB Connector"
       directory="profiles/default"
-      description="Extension profile for Example Dexterity Product"
+      description="Vindula's MongoDB Connector"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

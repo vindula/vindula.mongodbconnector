@@ -2,12 +2,12 @@
 <object
     name="portal_controlpanel"
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-    i18n:domain="vindula.imoveis">
+    i18n:domain="vindula.mongodbconnector">
 
     <configlet
-        title="MongoDB settings"
+        title="Vindula: MongoDB connector"
         action_id="vindula.mongodbconnector.connector"
-        appId="vindula.imoveis"
+        appId="vindula.mongodbconnector"
         category="Products"
         condition_expr=""
         url_expr="string:${portal_url}/@@mongodb-controlpanel"
