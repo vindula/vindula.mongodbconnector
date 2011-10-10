@@ -24,7 +24,7 @@ class MongoDBConnector(grok.GlobalUtility):
         if db_name == None:
             db_name = vars['db_name']
             
-        connection = Connection(host=vars['host'],port=vars['port'])
+        connection = Connection(host=vars['host'],port=int(vars['port']))
         db = connection[db_name]
         if transformation_class != None:
             db.add_son_manipulator(transformation_class())
